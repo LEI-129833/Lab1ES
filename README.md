@@ -46,6 +46,10 @@ Os Galeões eram grandes navios à vela com vários conveses, usados pela primei
 ---
 
 #### Fragata
+
+Fragata é um tipo de navio de guerra. O termo tem sido usado, ao longo dos séculos, para designar uma gama alargada de navios, com diferentes tamanhos e funções.
+[Conhecimento sem limites...](https://pt.wikipedia.org/wiki/Fragata)
+
 ![alt text](https://www.marinha.pt/pt/media-center/Noticias/Imagens%20Noticias/CULTURA/Fragata%20Dom%20Fernando%20e%20Gl%C3%B3ria.jpg "Fragata")
 
 ---
@@ -61,6 +65,12 @@ Os Galeões eram grandes navios à vela com vários conveses, usados pela primei
 ---
 
 #### Submarino
+
+Submarino ou submergível é uma embarcação fechada e destinada a navegar abaixo da superfície da água.
+O primeiro submarino de combate a navegar foi criado por David Bushnell, norte-americano que desenvolveu o modelo Tartaruga, de 1775, utilizado sem êxito na Guerra de Independência, porém a ideia de uma embarcação capaz de operar embaixo da água remonta ao século XVI.
+
+[Estuda mais...](https://pt.wikipedia.org/wiki/Submarino)
+
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9QVnNI2WXqhb005vecHtlWaTsgLMEJNgBvXALyd6u4EolJGb-_VI94s8k&s=10 "Sub")
 
 ---
