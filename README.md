@@ -1,7 +1,6 @@
 # Batalha Naval LEI-Engenharia Software
 
 ## O Jogo
-<code>resumo do jogo<\code>
 Este jogo joga-se com dois jogadores, cada um com a sua grelha quadriculada de 10x10 quadrados. Uma das
 grelhas representa “o seu mar”, a outra “o mar do adversário”. Seguidamente, deverá posicionar os
 seus navios na sua grelha, seguindo a orientação horizontal ou vertical, sem que o adversário os veja.
