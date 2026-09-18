@@ -55,11 +55,19 @@ Fragata é um tipo de navio de guerra. O termo tem sido usado, ao longo dos séc
 ---
 
 #### Nau
+
+Nau é denominação genérica dada a navios de grande porte com capacidade de 200 pessoas, até o século XV usados em viagens de grande percurso. Em vários documentos históricos a nau surge com a denominação de nave (do latim navis, "navio"), termo utilizado quase sempre entre 1211 e 1428. Opõe-se-lhe o termo embarcação, aplicado a barcos de menores proporções, utilizados em percursos pequenos. Que foi muito utilizada em meados do século XV e XVI.
+[Saiba mais...](https://pt.wikipedia.org/wiki/Nau)
+
 ![alt text](https://static-storage.dnoticias.pt/www-assets.dnoticias.pt/images/configuration/OR/1379ASPJUN17.JPEG "Nau")
 
 ---
 
 #### Caravela
+
+A caravela é um tipo de embarcação inventada pelos portugueses durante a Era dos Descobrimentos, nos séculos XV e XVI. O vocábulo parece ter origem no grego antigo cáravo ou cárabo ( κάραβος), designação usada para aludir a um certo tipo de barco ligeiro usado no mediterrâneo, durante a antiguidade clássica. Este vocábulo, por seu turno, terá chegado ao português pelo baixo latim carăbu, que significa «canoa».
+[Saiba mais...](https://pt.wikipedia.org/wiki/Caravela)
+
 ![alt text](https://www.vortexmag.net/wp-content/uploads/2021/06/caravela_portuguesa-e1624287267373.jpg "Caravela")
 
 ---
