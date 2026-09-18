@@ -1,13 +1,15 @@
-# Batalha Naval LEI-Engenharia Software
+# 🌊 Batalha Naval LEI-Engenharia Software [GrupoTP06_LEI-8] 🌊
 
-## O Jogo
+## 🕹️ O Jogo
 Este jogo joga-se com dois jogadores, cada um com a sua grelha quadriculada de 10x10 quadrados. Uma das
 grelhas representa “o seu mar”, a outra “o mar do adversário”. Seguidamente, deverá posicionar os
 seus navios na sua grelha, seguindo a orientação horizontal ou vertical, sem que o adversário os veja.
 O número de navios é igual para cada jogador e deverão ser posicionados sem que possam tocar-se
 entre si, embora possam estar encostados à borda das grelhas.
 
-## Regras
+---
+
+## 📜 Regras
 Cada jogador começa por construir duas grelhas quadriculadas iguais de 10x10 quadrados. Uma das
 grelhas representa “o seu mar”, a outra “o mar do adversário”. Seguidamente, deverá posicionar os
 seus navios na sua grelha, seguindo a orientação horizontal ou vertical, sem que o adversário os veja.
@@ -20,7 +22,9 @@ rajada de três tiros, informando se acertou em um ou mais navios e de que tipo,
 Cada jogador vai registando na grelha do oponente os resultados dos seus tiros, identificando os navios afundados.
 Ganha o jogo o primeiro que atingir todos os navios da frota adversária.
 
-## Barcos
+---
+
+## 🛶 Barcos
 
 ### Barcos Disponiveis
 |Nome|Descobrimentos|English|Dimensão|#Navios|
@@ -30,6 +34,36 @@ Ganha o jogo o primeiro que atingir todos os navios da frota adversária.
 |Navio de 3 canhoes|Nau|Carrack|3|2|
 |Navio de 2 canhoes|Caravela|Caravel|2|3|
 |Submarino|Barca|Barge|1|4|
+
+### Informacao de cada barco:
+#### Galeao
+
+Os Galeões eram grandes navios à vela com vários conveses, usados pela primeira vez como cargueiros armados por europeus do século XVI ao XVIII, durante a Era da Vela, e foram os principais navios recrutados para uso como navios de guerra até as Guerras Anglo-Holandesas em meados do século XVII.
+[Saiba mais...](https://pt.wikipedia.org/wiki/Gale%C3%A3o)
+
+![alt text](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Cornelis_Verbeeck%2C_A_Naval_Encounter_between_Dutch_and_Spanish_Warships%2C_156252_original.jpg/1920px-Cornelis_Verbeeck%2C_A_Naval_Encounter_between_Dutch_and_Spanish_Warships%2C_156252_original.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail "Galileu")
+
+---
+
+#### Fragata
+![alt text](https://www.marinha.pt/pt/media-center/Noticias/Imagens%20Noticias/CULTURA/Fragata%20Dom%20Fernando%20e%20Gl%C3%B3ria.jpg "Fragata")
+
+---
+
+#### Nau
+![alt text](https://static-storage.dnoticias.pt/www-assets.dnoticias.pt/images/configuration/OR/1379ASPJUN17.JPEG "Nau")
+
+---
+
+#### Caravela
+![alt text](https://www.vortexmag.net/wp-content/uploads/2021/06/caravela_portuguesa-e1624287267373.jpg "Caravela")
+
+---
+
+#### Submarino
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9QVnNI2WXqhb005vecHtlWaTsgLMEJNgBvXALyd6u4EolJGb-_VI94s8k&s=10 "Sub")
+
+---
 
 ## Participantes
 |Nome|Numero|
