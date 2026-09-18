@@ -1,3 +1,10 @@
-# Battleship
+# Batalha Naval LEI-Engenharia Software
 
-Basic academic version of Battleship game to build upon.
+## O Jogo
+<code>resumo do jogo<\code>
+
+## Regras
+<code>regras do jogo<\code>
+
+## Barcos
+<code> os barcos existentes<\code>
