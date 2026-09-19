@@ -1,6 +1,12 @@
 # 🌊 Batalha Naval LEI-Engenharia Software [GrupoTP06_LEI-8] 🌊
 
-## 🕹️ O Jogo
+## 📋 Índice
+- [O Jogo](#o-jogo)
+- [Regras](#regras)
+- [Barcos](#barcos)
+- [Participantes](#participantes)
+
+## <a name="o-jogo"></a>🕹️ O Jogo
 Este jogo joga-se com dois jogadores, cada um com a sua grelha quadriculada de 10x10 quadrados. Uma das
 grelhas representa “o seu mar”, a outra “o mar do adversário”. Seguidamente, deverá posicionar os
 seus navios na sua grelha, seguindo a orientação horizontal ou vertical, sem que o adversário os veja.
@@ -9,7 +15,7 @@ entre si, embora possam estar encostados à borda das grelhas.
 
 ---
 
-## 📜 Regras
+## <a name="regras"></a>📜 Regras
 Cada jogador começa por construir duas grelhas quadriculadas iguais de 10x10 quadrados. Uma das
 grelhas representa “o seu mar”, a outra “o mar do adversário”. Seguidamente, deverá posicionar os
 seus navios na sua grelha, seguindo a orientação horizontal ou vertical, sem que o adversário os veja.
@@ -24,7 +30,7 @@ Ganha o jogo o primeiro que atingir todos os navios da frota adversária.
 
 ---
 
-## 🛶 Barcos
+## <a name="barcos"></a>🛶 Barcos
 
 ### Barcos Disponiveis
 |Nome|Descobrimentos|English|Dimensão|#Navios|
@@ -83,7 +89,7 @@ O primeiro submarino de combate a navegar foi criado por David Bushnell, norte-a
 
 ---
 
-## Participantes
+## <a name="participantes"></a>👥 Participantes
 |Nome|Numero|
 |---|---|
 |David|129871|
