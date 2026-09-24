@@ -1,15 +1,35 @@
-/**
- *
- */
 package iscteiul.ista.battleship;
 
+/**
+ * Representa uma Caravela no jogo Batalha Naval.
+ * <p>
+ * A Caravela ocupa 2 posições contíguas no tabuleiro (vertical ou horizontalmente,
+ * dependendo do {@link Compass} fornecido). Deriva da classe {@link Ship}.
+ * </p>
+ *
+ * @author ISCTE-IUL
+ * @version 1.0
+ */
 public class Caravel extends Ship {
+
+    /**
+     * Tamanho ocupado pela Caravela no tabuleiro (2 células).
+     */
     private static final Integer SIZE = 2;
+
+    /**
+     * Nome identificador do tipo de navio.
+     */
     private static final String NAME = "Caravela";
 
     /**
-     * @param bearing the bearing where the Caravel heads to
-     * @param pos     initial point for positioning the Caravel
+     * Constrói uma nova instância de Caravela com a orientação e posição inicial especificadas.
+     * Calcula e adiciona as posições ocupadas pelo navio com base na orientação (bearing).
+     *
+     * @param bearing A orientação/direção para onde a Caravela aponta (NORTH, SOUTH, EAST, WEST)
+     * @param pos     A posição inicial de referência para colocar a Caravela
+     * @throws NullPointerException     Se a orientação {@code bearing} for nula
+     * @throws IllegalArgumentException Se a orientação {@code bearing} for inválida ou não suportada
      */
     public Caravel(Compass bearing, IPosition pos) throws NullPointerException, IllegalArgumentException {
         super(Caravel.NAME, bearing, pos);
@@ -31,17 +51,15 @@ public class Caravel extends Ship {
             default:
                 throw new IllegalArgumentException("ERROR! invalid bearing for the caravel");
         }
-
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Obtém o tamanho da Caravela.
      *
-     * @see battleship.Ship#getSize()
+     * @return O número de posições ocupadas pelo navio (sempre 2).
      */
     @Override
     public Integer getSize() {
         return SIZE;
     }
-
 }
