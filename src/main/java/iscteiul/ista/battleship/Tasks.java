@@ -9,15 +9,23 @@ import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Contém tarefas de teste e interação que permitem construir navios e frotas,
+ * consultar o seu estado e simular disparos no jogo Batalha Naval.
+ */
 public class Tasks {
+
+    /** Logger utilizado para apresentar informação durante a execução das tarefas. */
     private static final Logger LOGGER = LogManager.getLogger();
 
+    /** Número de tiros efetuados em cada rajada. */
     private static final int NUMBER_SHOTS = 3;
 
+    /** Mensagem apresentada quando o utilizador termina a execução. */
     private static final String GOODBYE_MESSAGE = "Bons ventos!";
 
     /**
-     * Strings to be used by the user
+     * Comandos que podem ser introduzidos pelo utilizador.
      */
     private static final String NOVAFROTA = "nova";
     private static final String DESISTIR = "desisto";
@@ -28,15 +36,15 @@ public class Tasks {
 
 
     /////////////////////////////////////////////////////////////////////////////
-    // hereafter one may find some code that can be converted to automatic tests,
-    // as long as appropriate changes are made. It also shows that we should
-    // develop our code incrementally e.g. first the ships, then the fleet,
-    // then some rule checking, then dealing with firing and so on
+    // A partir daqui encontram-se tarefas que permitem testar progressivamente
+    // as diferentes funcionalidades: criação de navios, criação da frota,
+    // validação das regras e realização de disparos.
     /////////////////////////////////////////////////////////////////////////////
 
     /**
-     * This task tests the building up of ships: For each ship, reads positions and
-     * indicates whether the ship occupies each one of such positions or not
+     * Testa a criação de navios.
+     * Para cada navio lido, são lidas três posições e é indicado se o navio
+     * ocupa ou não cada uma dessas posições.
      */
     public static void taskA() {
         Scanner in = new Scanner(System.in);
@@ -51,7 +59,8 @@ public class Tasks {
     }
 
     /**
-     * This task tests the building up of fleets
+     * Testa a construção e consulta de uma frota.
+     * Permite criar uma nova frota e consultar o seu estado até o utilizador desistir.
      */
     public static void taskB() {
         Scanner in = new Scanner(System.in);
@@ -69,15 +78,15 @@ public class Tasks {
                 default:
                     LOGGER.info("Que comando é esse??? Repete lá ...");
             }
-            // The other commands are unknown in this task
+            // Os restantes comandos não são reconhecidos nesta tarefa
             command = in.next();
         }
         LOGGER.info(GOODBYE_MESSAGE);
     }
 
     /**
-     * This task tests the building up of fleets and takes into consideration the
-     * possibility of cheating
+     * Testa a construção e consulta de uma frota, acrescentando a possibilidade
+     * de utilizar o comando de batota para visualizar informação sobre a frota.
      */
     public static void taskC() {
         Scanner in = new Scanner(System.in);
@@ -98,14 +107,16 @@ public class Tasks {
                 default:
                     LOGGER.info("Que comando é esse??? Repete lá ...");
             }
-            // The other commands are unknown in this task
+            // Os restantes comandos não são reconhecidos nesta tarefa
             command = in.next();
         }
         LOGGER.info(GOODBYE_MESSAGE);
     }
 
     /**
-     * This task also tests the fighting element of a round of three shots
+     * Testa a componente de combate do jogo.
+     * Permite criar uma frota, consultar o seu estado, visualizar o mapa,
+     * efetuar rajadas de três tiros e consultar os tiros já realizados.
      */
     public static void taskD() {
 
@@ -150,16 +161,17 @@ public class Tasks {
     }
 
     /**
-     * This operation allows the build up of a fleet, given user data
+     * Constrói uma frota a partir dos dados fornecidos pelo utilizador.
+     * Apenas incrementa o contador quando um navio é adicionado com sucesso.
      *
-     * @param in The scanner to read from
-     * @return The fleet that has been built
+     * @param in scanner utilizado para ler os dados
+     * @return a frota construída
      */
     static Fleet buildFleet(Scanner in) {
         assert in != null;
 
         Fleet fleet = new Fleet();
-        int i = 0; // i represents the total of successfully created ships
+        int i = 0; // i representa o total de navios criados com sucesso
 
         while (i <= Fleet.FLEET_SIZE) {
             IShip s = readShip(in);
@@ -178,10 +190,11 @@ public class Tasks {
     }
 
     /**
-     * This operation reads data about a ship, build it and returns it
+     * Lê os dados necessários para criar um navio.
+     * São lidos o tipo do navio, a posição e o caráter correspondente à orientação.
      *
-     * @param in The scanner to read from
-     * @return The created ship based on the data that has been read
+     * @param in scanner utilizado para ler os dados
+     * @return o navio criado a partir dos dados lidos
      */
     static Ship readShip(Scanner in) {
         String shipKind = in.next();
@@ -192,10 +205,10 @@ public class Tasks {
     }
 
     /**
-     * This operation allows reading a position in the map
+     * Lê uma linha e uma coluna e cria a posição correspondente no tabuleiro.
      *
-     * @param in The scanner to read from
-     * @return The position that has been read
+     * @param in scanner utilizado para ler os dados
+     * @return a posição criada
      */
     static Position readPosition(Scanner in) {
         int row = in.nextInt();
@@ -204,11 +217,11 @@ public class Tasks {
     }
 
     /**
-     * This operation allows firing a round of shots (three) over a fleet, in the
-     * context of a game
+     * Efetua uma rajada de três tiros sobre a frota no contexto do jogo.
+     * Se um tiro afundar um navio, é apresentada uma mensagem com a sua categoria.
      *
-     * @param in   The scanner to read from
-     * @param game The context game while fleet is being attacked
+     * @param in scanner utilizado para ler as posições dos tiros
+     * @param game jogo no qual os disparos são realizados
      */
     static void firingRound(Scanner in, IGame game) {
         for (int i = 0; i < NUMBER_SHOTS; i++) {
