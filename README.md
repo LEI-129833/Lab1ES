@@ -1,7 +1,6 @@
 # 🌊 Batalha Naval LEI-Engenharia Software [GrupoTP06_LEI-8] 🌊
 
-## Documentação do Projeto:
-[documentacao](https://lei-129833.github.io/Lab1ES/)
+## [Documentação do Projeto](https://lei-129833.github.io/Lab1ES/)
 
 ## 📋 Índice
 - [O Jogo](#o-jogo)
