@@ -53,7 +53,6 @@ public class Frigate extends Ship {
      *
      * @return O número de posições ocupadas pelo navio (sempre 4).
      */
-    @Override
     public Integer getSize() {
         return Frigate.SIZE;
     }
