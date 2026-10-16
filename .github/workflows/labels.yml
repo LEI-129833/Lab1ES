@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   labeler:
-    runs-on: ${{ secrets.MY_RUNNER }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
